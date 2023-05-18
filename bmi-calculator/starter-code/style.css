@@ -1,4 +1,4 @@
-.topo_da_pagina_conteiner{
+.topo_da_pagina_conteiner {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -11,20 +11,20 @@
     background: linear-gradient(290.1deg, #D6E6FE 0%, rgba(214, 252, 254, 0) 100%);
     border-radius: 0px 0px 35px 35px;
     padding-right: 110px;
-    
-    
-    
+
+
+
 }
 
-.logo{
+.logo {
     width: 40px;
     height: 40px;
     margin: 10px;
-    margin-left: 80px; 
-    
+    margin-left: 80px;
+
 }
 
-.titulo_da_pagina{
+.titulo_da_pagina {
     font-size: 48px;
     font-weight: 600;
     line-height: 52px;
@@ -35,7 +35,7 @@
     color: #253347;
 }
 
-.texto_topo_pagina{
+.texto_topo_pagina {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -45,7 +45,7 @@
     margin-bottom: 150px;
 }
 
-.calculadora_conteiner{
+.calculadora_conteiner {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -60,3 +60,16 @@
     box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
     border-radius: 16px;
 }
+
+/* ajustar o topico calculadora junto com o JS*/
+
+
+
+.homem_comendo {
+    position: absolute;
+    width: 311.17px;
+    height: 354.39px;
+    left: calc(50% - 311.17px/2 + 0.09px);
+    top: 1192px;
+}
+
