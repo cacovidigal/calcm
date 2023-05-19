@@ -12,15 +12,12 @@
     border-radius: 0px 0px 35px 35px;
     padding-right: 110px;
 
-
-
 }
+
 
 .logo {
     width: 40px;
     height: 40px;
-    margin: 10px;
-    margin-left: 80px;
 
 }
 
@@ -30,7 +27,7 @@
     line-height: 52px;
     text-align: center;
     width: 375px;
-    margin-left: 50px;
+
     margin-bottom: 5px;
     color: #253347;
 }
@@ -41,7 +38,7 @@
     line-height: 24px;
     text-align: center;
     color: #5E6E85;
-    margin-left: 50px;
+    padding: 2rem;
     margin-bottom: 150px;
 }
 
@@ -49,27 +46,40 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 45px;
+    padding: 24px;
     gap: 24px;
+    
     position: absolute;
     width: 328px;
     height: 649px;
-    left: 24px;
+    
     top: 471px;
+
+    /* Pure White */
+
     background: #FFFFFF;
     box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
     border-radius: 16px;
 }
 
-/* ajustar o topico calculadora junto com o JS*/
-
-
-
-.homem_comendo {
-    position: absolute;
-    width: 311.17px;
-    height: 354.39px;
-    left: calc(50% - 311.17px/2 + 0.09px);
-    top: 1192px;
+.topo_formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
 }
 
+.titulo_calculadora {
+    color: #253347;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 29px;
+    letter-spacing: -0.05em;
+
+    gap: 10px;
+    
+    
+}
+
+/* ajustar o topico calculadora junto com o JS*/

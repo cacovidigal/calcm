@@ -31,19 +31,38 @@
 
   <section class="calculadora_conteiner">
 
-    <h1 class="titulo_calculadora">Enter your details below</h1>
+    <form class="formulario">
+      <p class="topo_formulario">
+        <label>
+          <h1 class="titulo_calculadora">Enter your details below</h1>
+        </label>
+        <div class="escolha_da_metrica">
+        <label><input type="radio" name="metric" id="metric"> Metric</label>
+            <label><input type="radio" name="metric" id="metric"> Imperial</label>
+        </div>
 
-    <p>Metric</p><p>Imperial</p>
-    
-    <p>Height</p>
-    <p>Weight</p>
-    <p>Your BMI is...</p>
+      </p>
+      <p>
+        <label>Height</label><br>
+        <input type="number" name="height" id="height">
+      </p>
+      <p>
+        <label>Weight</label><br>
+        <input type="number" name="weight" id="weight">
+      </p>
+    </form>
 
 
-    <!-- add score -->
+    <div class="resultado">
+      <p>Your BMI is...</p>
 
-    <p>Your BMI suggests you're</p> <!-- add classification -->.
-    <p>Your ideal weight is between</p> <!-- add range -->.
+
+      <!-- add score -->
+
+      <p>Your BMI suggests you're</p> <!-- add classification -->.
+      <p>Your ideal weight is between</p> <!-- add range -->.
+    </div>
+
   </section>
 
   <section class="final_da_pagina">
@@ -52,7 +71,8 @@
 
     <div class="significado_do_resultado">
       <h1 class="titulo_significado_do_resultado">What your BMI result means</h1>
-      <p class="texto_significado_do_resultado"> A BMI range of 18.5 to 24.9 is considered a 'healthy weight.' Maintaining a
+      <p class="texto_significado_do_resultado"> A BMI range of 18.5 to 24.9 is considered a 'healthy weight.'
+        Maintaining a
         healthy weight may lower your chances of experiencing health issues later on,
         such as obesity and type 2 diabetes. Aim for a nutritious diet with reduced
         fat and sugar content, incorporating ample fruits and vegetables. Additionally,
@@ -117,24 +137,24 @@
 
     <div>
       <img src="./assets/images/icon-pregnancy.svg" alt="">
-    <h1>Pregnancy</h1>
-    <p>Expectant mothers experience weight gain due to their growing baby. Maintaining a
-      healthy pre-pregnancy BMI is advisable to minimise health risks for both mother
-      and child.</p>
+      <h1>Pregnancy</h1>
+      <p>Expectant mothers experience weight gain due to their growing baby. Maintaining a
+        healthy pre-pregnancy BMI is advisable to minimise health risks for both mother
+        and child.</p>
     </div>
-    
-    
-    
+
+
+
     <div>
       <img src="./assets/images/icon-race.svg" alt="">
-    <h1>Race</h1>
-    <p>Certain health concerns may affect individuals of some Black and Asian origins at
-      lower BMIs than others. To learn more, it is advised to discuss this with your
-      GP or practice nurse.</p>
+      <h1>Race</h1>
+      <p>Certain health concerns may affect individuals of some Black and Asian origins at
+        lower BMIs than others. To learn more, it is advised to discuss this with your
+        GP or practice nurse.</p>
     </div>
-    
-    
-    
+
+
+
 
   </section>
 
