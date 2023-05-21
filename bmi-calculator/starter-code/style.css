@@ -62,11 +62,12 @@
     border-radius: 16px;
 }
 
-.topo_formulario{
+form .topo_formulario{
     display: flex;
     flex-direction: column;
     justify-content: center;
     line-height: 30px;
+    
 }
 
 .titulo_calculadora {
@@ -76,8 +77,8 @@
     text-align: center;
     line-height: 29px;
     letter-spacing: -0.05em;
-
-    gap: 10px;
+    margin-bottom: 10px;
+    
     
     
 }
