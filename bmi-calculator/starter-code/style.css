@@ -48,11 +48,11 @@
     align-items: flex-start;
     padding: 24px;
     gap: 24px;
-    
+
     position: absolute;
     width: 328px;
     height: 649px;
-    
+
     top: 471px;
 
     /* Pure White */
@@ -62,12 +62,12 @@
     border-radius: 16px;
 }
 
-form .topo_formulario{
+form .topo_formulario {
     display: flex;
     flex-direction: column;
     justify-content: center;
     line-height: 30px;
-    
+
 }
 
 .titulo_calculadora {
@@ -78,9 +78,100 @@ form .topo_formulario{
     line-height: 29px;
     letter-spacing: -0.05em;
     margin-bottom: 10px;
-    
-    
-    
+    margin-left: 3rem;
+
+
+}
+
+.escolha_da_metrica {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 3rem;
+}
+
+.height {
+    margin-bottom: 10px;
+    margin-left: 3rem;
+    padding: 20px;
+
+}
+
+.weight {
+    margin-bottom: 10px;
+    margin-left: 3rem;
+    padding: 20px;
+}
+
+.resultado {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 24px;
+
+    width: 280px;
+    height: 257px;
+
+    background: linear-gradient(90deg, #345FF7 0%, #587DFF 100%);
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 /* ajustar o topico calculadora junto com o JS*/
+
+.homem_comendo {
+    position: absolute;
+    width: 311.17px;
+    height: 354.39px;
+    left: calc(50% - 311.17px/2 + 0.09px);
+    top: 1192px;
+}
+
+.significado_do_resultado {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 328px;
+    height: 342px;
+    left: calc(50% - 328px/2 + 0.5px);
+    top: 1594.39px;
+}
+
+.habitos {
+    position: absolute;
+    width: 375px;
+    height: 879px;
+    left: 0px;
+    top: 1900px;
+}
+
+.limitacoes_bmi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 56px;
+
+    position: absolute;
+    width: 327px;
+    height: 1363px;
+    left: 19px;
+    top: 2380px;
+}
