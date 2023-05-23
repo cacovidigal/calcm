@@ -653,3 +653,377 @@ form .topo_formulario {
     align-self: stretch;
     flex-grow: 0;
 }
+
+@media (min-width: 768px) {
+    .topo_da_pagina_conteiner {
+        position: absolute;
+        width: 768px;
+        height: 640px;
+        left: 0px;
+        top: 0px;
+        background: linear-gradient(290.1deg, #D6E6FE 0%, rgba(214, 252, 254, 0) 100%);
+        border-radius: 0px 0px 35px 35px;
+    }
+
+
+    .logo {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: calc(50% - 40px/2 - 2px);
+        top: 32px;
+    }
+
+    .titulo_da_pagina {
+        width: 500px;
+        height: 106px;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.05em;
+        color: #253347;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        padding: 170px;
+
+    }
+
+    .texto_topo_pagina {
+        width: 500px;
+        height: 72px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #5E6E85;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin-top: -16rem;
+        padding: 150px;
+    }
+
+    .calculadora_conteiner {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+        position: absolute;
+        width: 300px;
+        height: 250px;
+        left: 39px;
+        top: 554px;
+        background: #FFFFFF;
+        box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+        border-radius: 16px;
+    }
+
+    .height {
+        margin-bottom: -1rem;
+    }
+
+    .resultado {
+        padding: 32px;
+        gap: 24px;
+        width: 380px;
+        height: 150px;
+    }
+
+    .significado_do_resultado {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 32px;
+
+        position: absolute;
+        width: 328px;
+        height: 342px;
+        left: calc(50% - 328px/2 + 0.5px);
+        top: 1594.39px;
+    }
+
+    .titulo_significado_do_resultado {
+        font-size: 32px;
+        font-weight: 600;
+        color: #253347;
+    }
+
+    .texto_significado_do_resultado {
+        color: #5E6E85;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .homem_comendo {
+        position: absolute;
+        width: 360.96px;
+        height: 411.09px;
+        left: -42px;
+        top: 917px;
+
+    }
+
+    .significado_do_resultado {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 32px;
+
+        position: absolute;
+        width: 331px;
+        height: 342px;
+        left: 394px;
+        top: 952px;
+    }
+
+    .habitos {
+        position: absolute;
+        width: 768px;
+        height: 503px;
+        left: 0px;
+        top: 1424.09px;
+    }
+
+    .healthy_eating {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 40px;
+        width: 686px;
+        height: 101px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .sleep {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 40px;
+        width: 686px;
+        height: 101px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .exercise {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 40px;
+        width: 686px;
+        height: 101px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .titulo_e_texto_do_habito {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+        width: 582px;
+        height: 101px;
+        flex: none;
+        order: 1;
+        flex-grow: 1;
+    }
+
+    .limitacoes_bmi {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 56px;
+
+        position: absolute;
+        width: 686px;
+        height: 963px;
+        left: 39px;
+        top: 2023.09px;
+    }
+
+    .topo_limitations_mbi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 32px;
+
+        width: 686px;
+        height: 139px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .titulo_limitations_bmi {
+        width: 686px;
+        height: 35px;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.05em;
+        color: #253347;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .texto_limitations_bmi {
+        width: 686px;
+        height: 72px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #5E6E85;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .fim_da_pagina {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+        width: 686px;
+        height: 768px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .gender_e_age {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 15px;
+        width: 686px;
+        height: 232px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .muscle_e_pregnancy {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: 60px;
+        padding: 0px;
+        gap: 15px;
+        width: 686px;
+        height: 256px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .fim_da_pagina_gender {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        padding: 32px;
+        gap: 32px;
+        width: 335.5px;
+        height: 232px;
+        background: #FFFFFF;
+        box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+        border-radius: 16px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 1;
+    }
+
+    .fim_da_pagina_age {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+        width: 335.5px;
+        height: 232px;
+        background: #FFFFFF;
+        box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+        border-radius: 16px;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 1;
+    }
+
+    .fim_da_pagina_muscle {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+        width: 335.5px;
+        height: 256px;
+        background: #FFFFFF;
+        box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+        border-radius: 16px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 1;
+    }
+
+    .fim_da_pagina_pregnancy {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+        width: 335.5px;
+        height: 256px;
+        background: #FFFFFF;
+        box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+        border-radius: 16px;
+        flex: none;
+        order: 1;
+        flex-grow: 1;
+    }
+
+    .fim_da_pagina_race {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+        width: 365px;
+        height: 232px;
+        background: #FFFFFF;
+        box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+        border-radius: 16px;
+        flex: none;
+        margin-top: 60px;
+        flex-grow: 0;
+        margin-left: 180px;
+    }
+}
