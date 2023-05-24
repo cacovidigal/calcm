@@ -16,63 +16,64 @@
 </head>
 
 <body>
-
-  <section class="topo_da_pagina_conteiner">
-    <div class="retangulo"></div>
-    <img class="logo" src="./assets/images/logo.svg" alt="logo">
-    <div class="tituloEtexto_conteiner">
-
-
-      <h1 class="titulo_da_pagina">Body Mass Index Calculator</h1>
-
-      <p class="texto_topo_pagina">Better understand your weight in relation to your height using our
-        body mass index (BM) calculator. While BMI is not the sole determinant
-        of a healthy weight, it offers a valuable starting point to evaluate
-        your overall health and well-being.</p>
-    </div>
-
-  </section>
+  <section class="topo_da_pagina_desktop">
+    <section class="topo_da_pagina_conteiner">
+      <div class="retangulo"></div>
+      <img class="logo" src="./assets/images/logo.svg" alt="logo">
+      <div class="tituloEtexto_conteiner">
 
 
-  <section class="calculadora_conteiner">
+          <h1 class="titulo_da_pagina">Body Mass Index Calculator</h1>
 
-    <form class="formulario">
-      <p class="topo_formulario">
-        <label>
-          <h1 class="titulo_calculadora">Enter your details below</h1>
-        </label>
-      <div class="escolha_da_metrica">
-        <label><input type="radio" name="metric" id="metric"> Metric</label>
-        <label><input type="radio" name="metric" id="metric"> Imperial</label>
+          <p class="texto_topo_pagina">Better understand your weight in relation to your height using our
+          body mass index (BM) calculator. While BMI is not the sole determinant
+          of a healthy weight, it offers a valuable starting point to evaluate
+          your overall health and well-being.</p>
+      
+       </div>
+
+    </section>
+
+
+    <section class="calculadora_conteiner">
+
+      <form class="formulario">
+        <p class="topo_formulario">
+          <label>
+            <h1 class="titulo_calculadora">Enter your details below</h1>
+          </label>
+        <div class="escolha_da_metrica">
+          <label><input type="radio" name="metric" id="metric"> Metric</label>
+          <label><input type="radio" name="metric" id="metric"> Imperial</label>
+        </div>
+
+        </p>
+        <div class="altura_e_peso">
+          <p class="height">
+            <label>Height</label><br>
+            <input type="number" name="height" id="height">
+          </p>
+          <p class="weight">
+            <label>Weight</label><br>
+            <input type="number" name="weight" id="weight">
+          </p>
+        </div>
+
+      </form>
+
+
+      <div class="resultado">
+        <p>Your BMI is...</p>
+
+
+        <!-- add score -->
+
+        <p>Your BMI suggests you're</p> <!-- add classification -->.
+        <p>Your ideal weight is between</p> <!-- add range -->.
       </div>
 
-      </p>
-      <div class="altura_e_peso">
-        <p class="height">
-          <label>Height</label><br>
-          <input type="number" name="height" id="height">
-        </p>
-        <p class="weight">
-          <label>Weight</label><br>
-          <input type="number" name="weight" id="weight">
-        </p>
-      </div>
-
-    </form>
-
-
-    <div class="resultado">
-      <p>Your BMI is...</p>
-
-
-      <!-- add score -->
-
-      <p>Your BMI suggests you're</p> <!-- add classification -->.
-      <p>Your ideal weight is between</p> <!-- add range -->.
-    </div>
-
+    </section>
   </section>
-
   <section class="final_da_pagina">
 
     <div class="homem_comendo_">

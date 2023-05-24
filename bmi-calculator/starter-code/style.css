@@ -946,7 +946,7 @@ form .topo_formulario {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        
+
         padding: 32px;
         gap: 32px;
         width: 335.5px;
@@ -1025,5 +1025,98 @@ form .topo_formulario {
         margin-top: 60px;
         flex-grow: 0;
         margin-left: 180px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .topo_da_pagina_desktop {
+
+        position: absolute;
+        width: 1276px;
+        height: 737px;
+        left: 24px;
+        top: -1px;
+    }
+
+    .topo_da_pagina_conteiner {
+        position: absolute;
+        width: 978px;
+        height: 537px;
+        left: 24px;
+        top: -1px;
+        background: linear-gradient(290.1deg, #D6E6FE 0%, rgba(214, 252, 254, 0) 100%);
+        border-radius: 0px 0px 35px 35px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .logo {
+        position: absolute;
+        width: 64px;
+        height: 64px;
+        left: 140px;
+        top: 74px;
+    }
+
+    .tituloEtexto_conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 35px;
+
+        position: absolute;
+        width: 564px;
+        height: 200px;
+        left: 14px;
+        top: 5px;
+    }
+
+
+    .titulo_da_pagina {
+        width: 564px;
+        height: 140px;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 110%;
+        letter-spacing: -0.05em;
+        color: #253347;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        padding-left: 0px;
+        margin-left: -3rem;
+    }
+
+    .texto_topo_pagina {
+        width: 465px;
+        height: 96px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #5E6E85;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        padding-left: 1rem;
+    }
+
+    .calculadora_conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+        position: absolute;
+        width: 564px;
+        height: 484px;
+        left: 836px;
+        top: 166px;
+        background: #FFFFFF;
+        box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+        border-radius: 16px;
     }
 }
