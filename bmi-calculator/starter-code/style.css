@@ -1119,4 +1119,44 @@ form .topo_formulario {
         box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
         border-radius: 16px;
     }
+
+    .homem_comendo {
+        position: absolute;
+        width: 564px;
+        height: 533px;
+        left: 140px;
+        top: 801px;
+
+    }
+
+    .significado_do_resultado {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 35px;
+
+        position: absolute;
+        width: 465px;
+        height: 309px;
+        left: 835px;
+        top: 985px;
+    }
+
+    .habitos {
+        position: absolute;
+        width: 1392px;
+        height: 402px;
+        left: 24px;
+        top: 1430px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;        
+    }
+
+    
+
+    
+   
+
 }
