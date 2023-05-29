@@ -6,7 +6,7 @@ function somar(){
     var n1 = Number(tn1.value)
     var n2 = Number(tn2.value)
     var s = n1 / (n2*n2)
-    res.innerHTML = `A soma entre ${n1} e ${n2} é igual a ${s}`
+    //res.innerHTML = `A soma entre ${n1} e ${n2} é igual a ${s}`
 }
 
 /*Below you will find the BMI ranges and their weight classifications. Based on the person's BMI results, add their weight classification onto sentence "Your BMI suggests you’re" within the results component.
