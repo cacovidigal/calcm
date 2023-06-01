@@ -728,14 +728,16 @@ form .topo_formulario {
     }
 
     .resultado {
-        padding: 32px;
+        padding: 3px;
         gap: 24px;
         width: 380px;
-        height: 150px;
+        height: 300px;
+        margin-top: 5px;
+        
     }
 
     .significado_do_resultado {
-        /* Auto layout */
+        
 
         display: flex;
         flex-direction: column;
